@@ -1,9 +1,3 @@
-import React from 'react'
-
-const Users = () => {
-  return (
-    <div>Users</div>
-  )
+export default function Users() {
+    return <h1>User matrics</h1>
 }
-
-export default Users
