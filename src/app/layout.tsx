@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import MyNavbar from "./Navigation/page";
+
 
 
 
@@ -32,9 +32,7 @@ export default function RootLayout({
      
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <header className="bg-blue-600 text-white p-8 text-center">
-       <MyNavbar/>
-         </header>
+        
         {children}
       </body>
     </html>
